@@ -24,6 +24,50 @@ var partition = d3.layout.partition().sort(function(a, b) {
   return x - y; 
 });
 
+var baseColors = [
+  '#448D98',
+  '#1599C1',
+  '#6B88AA',
+  '#7BC8EF',
+  '#AFBED3',
+  '#A99989',
+  '#807F83',
+  '#005953',
+  '#5B3D67',
+  '#F9A46A',
+  '#FFD200',
+  '#FFF797',
+  '#4F6F19',
+  '#90AE3E',
+  '#B4D88B',
+  '#E2EDC3',
+  '#D6E9E1',
+  '#C2E1F6',
+]
+
+var parentColor = d3.scale.ordinal().range(baseColors)
+
+var color = function(d) {
+
+  if (d.depth == 0) {
+    return '#DDDDDD';
+  }
+  else if (d.depth == 1) {
+    return parentColor(d.name);
+  }
+  else if (d.depth == 2) {
+    return parentColor(d.parent.name)
+  }
+  else if (d.depth == 3) {
+    return parentColor(d.parent.parent.name)
+  }
+  else if (!d.children) {
+    return d["Red List Status"].toLowerCase() == "unknown" ? "#EE312D" :"#BEC0C2";
+  }
+  else {
+    return "#DDDDDD";
+  }
+}
 
 var change_vals = function(d) {
   if (!("key" in d) && !("values" in d)) {
@@ -60,7 +104,17 @@ function changeState(id) {
 
 }
 
+/**
+var tip = d3.tip()
+  .attr("class", "d3-tip")
+  .offset([-10, 0])
+  .html(function(d) {
+    return "hello"
+  });
+**/
+
 var expand = false;
+
 d3.csv("MaterialDatabase_CSV.csv", function(root) {
 
 
@@ -73,6 +127,11 @@ d3.csv("MaterialDatabase_CSV.csv", function(root) {
     });
     return r;
   });
+
+  var divisions = d3.nest()
+    .key(function(d) { return d["CSI Division"]; })
+    .rollup(function(v) { return v.name; })
+    .entries(filtered).map(function(d) { return d.key; });
 
   nested = d3.nest()
     .key(function(d) { return d["CSI Division"]; })
@@ -89,7 +148,8 @@ d3.csv("MaterialDatabase_CSV.csv", function(root) {
   partition.value(function(v) { 
         return tot/(v.parent.children.length*v.parent.parent.children.length*v.parent.parent.parent.children.length); });
 
-  
+  parentColor.domain(divisions);
+
   var gd = {name: "Division", depth: 0, heirs: nested.children.length};
 
 
@@ -158,7 +218,9 @@ d3.csv("MaterialDatabase_CSV.csv", function(root) {
   g.append("svg:rect")
       .attr("width", nested.dy * kx)
       .attr("height", function(d) { return d.dx * ky; })
+      .style("fill", function (d) { return color(d); })
       .attr("class", function(d) { return d.children ? "parent" : "child"; });
+      //.call(tip);
 
   g.append("svg:text")
       .attr("transform", transform)
