@@ -1,12 +1,12 @@
 CSI Division,Subdivision Name,Manufacturer,Product,Red List Status,FSC Content,Recycled Content
-01: General Requirements,01 00 00 General Requirements,Owens Corning,Cavitycomplete Wall System For Steel Stud With Masonry Veneer,Compliant,Unknown,Unknown
+01: General Requirements,01 00 00 General Requirements,Owens Corning,Cavitycomplete Wall System For Steel Stud With Masonry Veneer,LBC Compliant,Unknown,Unknown
 01: General Requirements,01 00 00 General Requirements,SIPs of America,Structural Insulated Panels,Red List Free,Unknown,Unknown
 01: General Requirements,01 56 26 Temporary Fencing,The Reuse Everything Institute Inc.,Reii Landscaping Fence,Red List Free,Unknown,Unknown
 02: Site Construction,02 90 00 Unassigned (Composting),GroCo Inc.,Groco Compost Made With Loop,Red List Free,Unknown,Unknown
 03: Concrete,03 01 00 Maintenance Of Concrete,MAPEI AMERICAS,Ultraplan 1 Plus,Red List Free,Unknown,Unknown
 03: Concrete,03 01 30 Resurfacing Of Cast-In-Place Concrete,MAPEI AMERICAS,Ultratop Pc,Red List Free,Unknown,Unknown
 03: Concrete,03 10 00 Concrete Forming And Accessories,Arvis Eco,Drain Joint,Red List Free,Unknown,Unknown
-03: Concrete,03 30 00 Cast-In-Place Concrete,Prosoco,Consolideck Colorhard,Compliant,0%,0%
+03: Concrete,03 30 00 Cast-In-Place Concrete,Prosoco,Consolideck Colorhard,LBC Compliant,0%,0%
 03: Concrete,03 30 00 Cast-In-Place Concrete,Prosoco,Consolideck Guardext,Red List Free,0%,0%
 03: Concrete,03 30 00 Cast-In-Place Concrete,Prosoco,Consolideck Ls/Cs,Red List Free,0%,0%
 03: Concrete,03 35 00 Concrete Finishing,Prosoco,Consolideck Concrete Protector,Red List Free,0%,0%
@@ -16,7 +16,7 @@ CSI Division,Subdivision Name,Manufacturer,Product,Red List Status,FSC Content,R
 03: Concrete,03 54 00 Cast Underlayment,ARDEX Americas,Ardex Feather Finish,Red List Free,0%,0%
 03: Concrete,03 54 16 Hydraulic Cement Underlayment,ARDEX Americas,Ardex K 15,Red List Free,Unknown,0%
 03: Concrete,03 90 00 Unassigned,"Novion,Inc.-RadonSeal",Radonseal Deep-Penetrating Concrete Sealer,Red List Free,Unknown,Unknown
-04: Masonry,04 00 00 Masonry,Owens Corning,Cavitycomplete Wall System For Steel Stud With Masonry Veneer,Compliant,Unknown,Unknown
+04: Masonry,04 00 00 Masonry,Owens Corning,Cavitycomplete Wall System For Steel Stud With Masonry Veneer,LBC Compliant,Unknown,Unknown
 04: Masonry,04 00 00 Masonry,McNear Brick & Block,Thin Brick,Red List Free,Unknown,Unknown
 04: Masonry,04 20 00 Unit Masonry,Basalite Dupont,Concrete Masonry Unit With Carboncure - 801 Spec Brik A1,Red List Free,Unknown,Unknown
 04: Masonry,04 20 00 Unit Masonry,Basalite Dupont,Concrete Masonry Unit With Carboncure - 313 Mwa Sandstone,Red List Free,Unknown,Unknown
@@ -33,8 +33,8 @@ CSI Division,Subdivision Name,Manufacturer,Product,Red List Status,FSC Content,R
 04: Masonry,04 20 00 Unit Masonry,Anchor an Oldcastle company,Concrete Masonry Units With Carboncure,Red List Free,Unknown,Unknown
 04: Masonry,04 21 13 Brick Masonry,Belden Brick,Rainbow Red Range,Red List Free,Unknown,Unknown
 04: Masonry,04 22 00 Concrete Unit Masonry,Navajo FlexCrete,Fiber Reinforced Aerated Concrete Masonry Blocks,Red List Free,Unknown,Unknown
-04: Masonry,04 27 23 Cavity Wall Unit Masonry,Owens Corning,Thermafiber Rainbarrier Hd,Compliant,Unknown,Unknown
-04: Masonry,04 27 23 Cavity Wall Unit Masonry,Owens Corning,Thermafiber Rainbarrier 45,Compliant,Unknown,Unknown
+04: Masonry,04 27 23 Cavity Wall Unit Masonry,Owens Corning,Thermafiber Rainbarrier Hd,LBC Compliant,Unknown,Unknown
+04: Masonry,04 27 23 Cavity Wall Unit Masonry,Owens Corning,Thermafiber Rainbarrier 45,LBC Compliant,Unknown,Unknown
 04: Masonry,04 40 00 Stone,EcoGranite LLC,Recycled Granite,Red List Free,Unknown,Unknown
 04: Masonry,04 42 26 Grid-System-Supported Stone Cladding,TerraCORE,Terracore Hct,Red List Free,Unknown,Unknown
 05: Metals ,05 50 00 Metal Fabrications,T&R Interior Systems,Eclipse Aluminium Suite,Red List Free,Unknown,Unknown
@@ -86,10 +86,10 @@ CSI Division,Subdivision Name,Manufacturer,Product,Red List Status,FSC Content,R
 07: Thermal and Moisture Protection ,07 00 00 Thermal And Moisture Protection,Owens Corning,Ecotouch Insulation For Metal Building Utility Blanket With Purefiber Technology,Red List Free,Unknown,Unknown
 07: Thermal and Moisture Protection ,07 00 00 Thermal And Moisture Protection,Owens Corning,Ecotouch Insulation For Mbi Plus With Purefiber Technology,Red List Free,Unknown,Unknown
 07: Thermal and Moisture Protection ,07 00 00 Thermal And Moisture Protection,Owens Corning,Ecotouch Insulation For Certified R Metal Building With Purefiber Technology,Red List Free,Unknown,Unknown
-07: Thermal and Moisture Protection ,07 00 00 Thermal And Moisture Protection,Owens Corning,Cavitycomplete Wall System For Steel Stud With Masonry Veneer,Compliant,Unknown,Unknown
+07: Thermal and Moisture Protection ,07 00 00 Thermal And Moisture Protection,Owens Corning,Cavitycomplete Wall System For Steel Stud With Masonry Veneer,LBC Compliant,Unknown,Unknown
 07: Thermal and Moisture Protection ,07 00 00 Thermal And Moisture Protection,"Mikel and Compay , L.L.C.",Lumber Seal,Red List Free,Unknown,Unknown
 07: Thermal and Moisture Protection ,07 01 00 Operation And Maintenance Of Thermal And Moisture Protection,Johns Manville,Enrgy 3.E,Red List Free,Unknown,Unknown
-07: Thermal and Moisture Protection ,07 05 00 Common Work Results For Thermal And Moisture Protection,Owens Corning,Foamular Insulating Sheathing Xps Rigid Foam Insulation,Compliant,Unknown,Unknown
+07: Thermal and Moisture Protection ,07 05 00 Common Work Results For Thermal And Moisture Protection,Owens Corning,Foamular Insulating Sheathing Xps Rigid Foam Insulation,LBC Compliant,Unknown,Unknown
 07: Thermal and Moisture Protection ,07 10 00 Dampproofing And Waterproofing,MAPEI AMERICAS,Mapelastic - Part B -Liquid,Red List Free,Unknown,Unknown
 07: Thermal and Moisture Protection ,07 10 00 Dampproofing And Waterproofing,MAPEI AMERICAS,Mapelastic - Part A -Powder,Red List Free,Unknown,Unknown
 07: Thermal and Moisture Protection ,07 20 00 Thermal Protection,Cascadia Windows Ltd.,Cascadia Clip,Red List Free,Unknown,Unknown
@@ -113,36 +113,36 @@ CSI Division,Subdivision Name,Manufacturer,Product,Red List Status,FSC Content,R
 07: Thermal and Moisture Protection ,07 21 00 Thermal Insulation,Knauf Insulation,Knauf Ecobatt Quiettherm Insulation With Ecose Technology,Red List Free,Unknown,Unknown
 07: Thermal and Moisture Protection ,07 21 00 Thermal Insulation,Knauf Insulation,Knauf Ecobatt Insulation With Ecose Technology,Red List Free,Unknown,Unknown
 07: Thermal and Moisture Protection ,07 21 00 Thermal Insulation,Owens Corning,Propink L77 Loosefill Insulation,Red List Free,Unknown,Unknown
-07: Thermal and Moisture Protection ,07 21 00 Thermal Insulation,Owens Corning,Foamular Xps Fabrication Billets,Compliant,Unknown,Unknown
-07: Thermal and Moisture Protection ,07 21 00 Thermal Insulation,Owens Corning,Ecotouch Pink Fiberglas Insulation,Compliant,Unknown,Unknown
+07: Thermal and Moisture Protection ,07 21 00 Thermal Insulation,Owens Corning,Foamular Xps Fabrication Billets,LBC Compliant,Unknown,Unknown
+07: Thermal and Moisture Protection ,07 21 00 Thermal Insulation,Owens Corning,Ecotouch Pink Fiberglas Insulation,LBC Compliant,Unknown,Unknown
 07: Thermal and Moisture Protection ,07 21 00 Thermal Insulation,GreenFiber,Ins765Ld - 30 Lb Greenfiber All Borate Loose Fill Attic And Wall Insulation,Red List Free,Unknown,Unknown
 07: Thermal and Moisture Protection ,07 21 00 Thermal Insulation,GreenFiber,Ins745 - 30 Lb Greenfiber All Borate Stabilized Attic And Wall Insulation,Red List Free,Unknown,Unknown
 07: Thermal and Moisture Protection ,07 21 00 Thermal Insulation,GreenFiber,Ins770Ld - 25 Lb Greenfiber Premium All Borate Retrofit Wall Insulation,Red List Free,Unknown,Unknown
 07: Thermal and Moisture Protection ,07 21 00 Thermal Insulation,GreenFiber,Ins735 - 30 Lb Greenfiber All Borate Wall Spray Insulation,Red List Free,Unknown,Unknown
 07: Thermal and Moisture Protection ,07 21 00 Thermal Insulation,Owens Corning,Propink L77 Loosefill Insulation,Red List Free,Unknown,Unknown
-07: Thermal and Moisture Protection ,07 21 00 Thermal Insulation,Owens Corning,Foamular Xps Fabrication Billets,Compliant,Unknown,Unknown
-07: Thermal and Moisture Protection ,07 21 00 Thermal Insulation,Owens Corning,Ecotouch Pink Fiberglas Insulation,Compliant,Unknown,Unknown
+07: Thermal and Moisture Protection ,07 21 00 Thermal Insulation,Owens Corning,Foamular Xps Fabrication Billets,LBC Compliant,Unknown,Unknown
+07: Thermal and Moisture Protection ,07 21 00 Thermal Insulation,Owens Corning,Ecotouch Pink Fiberglas Insulation,LBC Compliant,Unknown,Unknown
 07: Thermal and Moisture Protection ,07 21 00 Thermal Insulation,Owens Corning,Owens Corning Propink Complete Fiberglass Loosefill Insulation,Unknown,Unknown,Unknown
 07: Thermal and Moisture Protection ,07 21 13 Board Insulation,Dow Corning,Vacuum Insulation Panels,Unknown,Unknown,Unknown
-07: Thermal and Moisture Protection ,07 21 13 Board Insulation,Owens Corning,Foamular Propink Sheathing Xps Rigid Foam Insulation,Compliant,Unknown,Unknown
-07: Thermal and Moisture Protection ,07 21 13 Board Insulation,Owens Corning,Foamular Lt40 Xps Rigid Foam Insulation,Compliant,Unknown,Unknown
-07: Thermal and Moisture Protection ,07 21 13 Board Insulation,Owens Corning,Foamular Lt30 Xps Rigid Foam Insulation,Compliant,Unknown,Unknown
-07: Thermal and Moisture Protection ,07 21 13 Board Insulation,Owens Corning,Foamular Insulpink-Z Xps Rigid Foam Insulation,Compliant,Unknown,Unknown
-07: Thermal and Moisture Protection ,07 21 13 Board Insulation,Owens Corning,Foamular Insulpink Xps Rigid Foam Insulation,Compliant,Unknown,Unknown
-07: Thermal and Moisture Protection ,07 21 13 Board Insulation,Owens Corning,Foamular Insuldrain Xps Rigid Foam Insulation Board,Compliant,Unknown,Unknown
-07: Thermal and Moisture Protection ,07 21 13 Board Insulation,Owens Corning,Foamular High-R Cw Plus Xps Rigid Foam Insulation,Compliant,Unknown,Unknown
-07: Thermal and Moisture Protection ,07 21 13 Board Insulation,Owens Corning,Foamular Half Inch Xps Rigid Foam Insulation,Compliant,Unknown,Unknown
-07: Thermal and Moisture Protection ,07 21 13 Board Insulation,Owens Corning,Foamular Cw25 Xps Rigid Foam Insulation,Compliant,Unknown,Unknown
-07: Thermal and Moisture Protection ,07 21 13 Board Insulation,Owens Corning,Foamular Cw15 Xps Rigid Foam Insulation,Compliant,Unknown,Unknown
-07: Thermal and Moisture Protection ,07 21 13 Board Insulation,Owens Corning,Foamular 250 Xps Rigid Foam Insulation,Compliant,Unknown,Unknown
-07: Thermal and Moisture Protection ,07 21 13 Board Insulation,Owens Corning,Foamular 150 Xps Rigid Foam Insulation,Compliant,Unknown,Unknown
-07: Thermal and Moisture Protection ,07 21 13 Board Insulation,Owens Corning,Foamular 1000 Xps Rigid Foam Insulation,Compliant,Unknown,Unknown
-07: Thermal and Moisture Protection ,07 21 13 Fibrous Board Insulation,Owens Corning,Thermafiber Versaboard,Compliant,Unknown,Unknown
-07: Thermal and Moisture Protection ,8 21 13 Fibrous Board Insulation,Owens Corning,Thermafiber Versaboard,Compliant,Unknown,Unknown
-07: Thermal and Moisture Protection ,07 21 13 Mineral Board Insulation,Owens Corning,Thermafiber Firespan 40 & Firespan 90,Compliant,Unknown,Unknown
+07: Thermal and Moisture Protection ,07 21 13 Board Insulation,Owens Corning,Foamular Propink Sheathing Xps Rigid Foam Insulation,LBC Compliant,Unknown,Unknown
+07: Thermal and Moisture Protection ,07 21 13 Board Insulation,Owens Corning,Foamular Lt40 Xps Rigid Foam Insulation,LBC Compliant,Unknown,Unknown
+07: Thermal and Moisture Protection ,07 21 13 Board Insulation,Owens Corning,Foamular Lt30 Xps Rigid Foam Insulation,LBC Compliant,Unknown,Unknown
+07: Thermal and Moisture Protection ,07 21 13 Board Insulation,Owens Corning,Foamular Insulpink-Z Xps Rigid Foam Insulation,LBC Compliant,Unknown,Unknown
+07: Thermal and Moisture Protection ,07 21 13 Board Insulation,Owens Corning,Foamular Insulpink Xps Rigid Foam Insulation,LBC Compliant,Unknown,Unknown
+07: Thermal and Moisture Protection ,07 21 13 Board Insulation,Owens Corning,Foamular Insuldrain Xps Rigid Foam Insulation Board,LBC Compliant,Unknown,Unknown
+07: Thermal and Moisture Protection ,07 21 13 Board Insulation,Owens Corning,Foamular High-R Cw Plus Xps Rigid Foam Insulation,LBC Compliant,Unknown,Unknown
+07: Thermal and Moisture Protection ,07 21 13 Board Insulation,Owens Corning,Foamular Half Inch Xps Rigid Foam Insulation,LBC Compliant,Unknown,Unknown
+07: Thermal and Moisture Protection ,07 21 13 Board Insulation,Owens Corning,Foamular Cw25 Xps Rigid Foam Insulation,LBC Compliant,Unknown,Unknown
+07: Thermal and Moisture Protection ,07 21 13 Board Insulation,Owens Corning,Foamular Cw15 Xps Rigid Foam Insulation,LBC Compliant,Unknown,Unknown
+07: Thermal and Moisture Protection ,07 21 13 Board Insulation,Owens Corning,Foamular 250 Xps Rigid Foam Insulation,LBC Compliant,Unknown,Unknown
+07: Thermal and Moisture Protection ,07 21 13 Board Insulation,Owens Corning,Foamular 150 Xps Rigid Foam Insulation,LBC Compliant,Unknown,Unknown
+07: Thermal and Moisture Protection ,07 21 13 Board Insulation,Owens Corning,Foamular 1000 Xps Rigid Foam Insulation,LBC Compliant,Unknown,Unknown
+07: Thermal and Moisture Protection ,07 21 13 Fibrous Board Insulation,Owens Corning,Thermafiber Versaboard,LBC Compliant,Unknown,Unknown
+07: Thermal and Moisture Protection ,8 21 13 Fibrous Board Insulation,Owens Corning,Thermafiber Versaboard,LBC Compliant,Unknown,Unknown
+07: Thermal and Moisture Protection ,07 21 13 Mineral Board Insulation,Owens Corning,Thermafiber Firespan 40 & Firespan 90,LBC Compliant,Unknown,Unknown
 07: Thermal and Moisture Protection ,07 21 16 Blanket Insulation,Applegate Insulation,"R8 2.2"" X 16"" X 48"" Recycled Cotton Multi-Purpose Insulation Roll",Red List Free,Unknown,Unknown
 07: Thermal and Moisture Protection ,07 21 16 Blanket Insulation,Knauf Insulation,Knauf Canadian Metal Building Insulation With Ecose Technology,Red List Free,Unknown,Unknown
-07: Thermal and Moisture Protection ,07 21 16 Blanket Insulation,Owens Corning,Thermafiber Ultrabatt,Compliant,Unknown,Unknown
+07: Thermal and Moisture Protection ,07 21 16 Blanket Insulation,Owens Corning,Thermafiber Ultrabatt,LBC Compliant,Unknown,Unknown
 07: Thermal and Moisture Protection ,07 21 23 Loose-Fill Insulation,Knauf Insulation,Knauf Insulation Jetstream Ultra,Red List Free,Unknown,Unknown
 07: Thermal and Moisture Protection ,07 21 23 Loose-Fill Insulation,Knauf Insulation,Knauf Insulation Jetstream Ultra,Red List Free,Unknown,Unknown
 07: Thermal and Moisture Protection ,07 21 53 Reflective Insulation,Autex Industries Ltd,Autex Ducting Insulation Wrap,Red List Free,Unknown,Unknown
@@ -152,16 +152,16 @@ CSI Division,Subdivision Name,Manufacturer,Product,Red List Status,FSC Content,R
 07: Thermal and Moisture Protection ,07 21 53 Reflective Insulation,Autex Industries Ltd,Cube And Quietspace Panel,Red List Free,Unknown,Unknown
 07: Thermal and Moisture Protection ,07 21 53 Reflective Insulation,Autex Industries Ltd,Quietspace Ceiling Tiles,Red List Free,Unknown,Unknown
 07: Thermal and Moisture Protection ,07 21 53 Reflective Insulation,Autex Industries Ltd,Vertiface,Red List Free,Unknown,Unknown
-07: Thermal and Moisture Protection ,07 22 16 Roof Board Insulation,Owens Corning,Foamular Thermapink 25 Tapered Xps Rigid Foam Insulation,Compliant,Unknown,Unknown
-07: Thermal and Moisture Protection ,07 22 16 Roof Board Insulation,Owens Corning,Foamular Thermapink Xps Rigid Foam Insulation,Compliant,Unknown,Unknown
-07: Thermal and Moisture Protection ,07 22 16 Roof Board Insulation,Owens Corning,Foamular Durapink Xps Rigid Foam Insulation,Compliant,Unknown,Unknown
-07: Thermal and Moisture Protection ,07 22 16 Roof Board Insulation,Owens Corning,Foamular 604Rb Xps Rigid Foam Insulation,Compliant,Unknown,Unknown
-07: Thermal and Moisture Protection ,07 22 16 Roof Board Insulation,Owens Corning,Foamular 604 Xps Rigid Foam Insulation,Compliant,Unknown,Unknown
-07: Thermal and Moisture Protection ,07 22 16 Roof Board Insulation,Owens Corning,Foamular 600 Tapered Xps Rigid Foam Insulation,Compliant,Unknown,Unknown
-07: Thermal and Moisture Protection ,07 22 16 Roof Board Insulation,Owens Corning,Foamular 600 Xps Rigid Foam Insulation,Compliant,Unknown,Unknown
-07: Thermal and Moisture Protection ,07 22 16 Roof Board Insulation,Owens Corning,Foamular 404Rb Xps Rigid Foam Insulation,Compliant,Unknown,Unknown
-07: Thermal and Moisture Protection ,07 22 16 Roof Board Insulation,Owens Corning,Foamular 400 Tapered Xps Rigid Foam Insulation,Compliant,Unknown,Unknown
-07: Thermal and Moisture Protection ,07 22 16 Roof Board Insulation,Owens Corning,Foamular 400 Xps Rigid Foam Insulation,Compliant,Unknown,Unknown
+07: Thermal and Moisture Protection ,07 22 16 Roof Board Insulation,Owens Corning,Foamular Thermapink 25 Tapered Xps Rigid Foam Insulation,LBC Compliant,Unknown,Unknown
+07: Thermal and Moisture Protection ,07 22 16 Roof Board Insulation,Owens Corning,Foamular Thermapink Xps Rigid Foam Insulation,LBC Compliant,Unknown,Unknown
+07: Thermal and Moisture Protection ,07 22 16 Roof Board Insulation,Owens Corning,Foamular Durapink Xps Rigid Foam Insulation,LBC Compliant,Unknown,Unknown
+07: Thermal and Moisture Protection ,07 22 16 Roof Board Insulation,Owens Corning,Foamular 604Rb Xps Rigid Foam Insulation,LBC Compliant,Unknown,Unknown
+07: Thermal and Moisture Protection ,07 22 16 Roof Board Insulation,Owens Corning,Foamular 604 Xps Rigid Foam Insulation,LBC Compliant,Unknown,Unknown
+07: Thermal and Moisture Protection ,07 22 16 Roof Board Insulation,Owens Corning,Foamular 600 Tapered Xps Rigid Foam Insulation,LBC Compliant,Unknown,Unknown
+07: Thermal and Moisture Protection ,07 22 16 Roof Board Insulation,Owens Corning,Foamular 600 Xps Rigid Foam Insulation,LBC Compliant,Unknown,Unknown
+07: Thermal and Moisture Protection ,07 22 16 Roof Board Insulation,Owens Corning,Foamular 404Rb Xps Rigid Foam Insulation,LBC Compliant,Unknown,Unknown
+07: Thermal and Moisture Protection ,07 22 16 Roof Board Insulation,Owens Corning,Foamular 400 Tapered Xps Rigid Foam Insulation,LBC Compliant,Unknown,Unknown
+07: Thermal and Moisture Protection ,07 22 16 Roof Board Insulation,Owens Corning,Foamular 400 Xps Rigid Foam Insulation,LBC Compliant,Unknown,Unknown
 07: Thermal and Moisture Protection ,07 25 00 Weather Barriers,DuPont(TM) Building Innovations,Dupont(Tm) Tyvek Commercial Wraps,Red List Free,Unknown,Unknown
 07: Thermal and Moisture Protection ,07 25 00 Weather Barriers,DuPont(TM) Building Innovations,Dupont(Tm) Tyvek Residential Wraps,Red List Free,Unknown,Unknown
 07: Thermal and Moisture Protection ,07 26 16 Below-Grade Vapor Retarders,Stego Industries,Stego Pre-Cut Pipe Boots,Red List Free,Unknown,Unknown
@@ -220,7 +220,7 @@ CSI Division,Subdivision Name,Manufacturer,Product,Red List Status,FSC Content,R
 07: Thermal and Moisture Protection ,07 80 00 Fire And Smoke Protection,Specified Technologies Inc.,Electrical Box Inserts,Red List Free,Unknown,Unknown
 07: Thermal and Moisture Protection ,07 80 00 Fire And Smoke Protection,Specified Technologies Inc.,Es Elastomeric Sealant,Red List Free,Unknown,Unknown
 07: Thermal and Moisture Protection ,07 84 00 Firestopping,Specified Technologies Inc.,Lci Intumescent Sealant,Red List Free,Unknown,Unknown
-07: Thermal and Moisture Protection ,07 84 56 Fire Safing,Owens Corning,Thermafiber Safing,Compliant,Unknown,Unknown
+07: Thermal and Moisture Protection ,07 84 56 Fire Safing,Owens Corning,Thermafiber Safing,LBC Compliant,Unknown,Unknown
 07: Thermal and Moisture Protection ,07 92 00 Joint Sealants,DuPont(TM) Building Innovations,Dupont(Tm) Joint Adhesive,Red List Free,Unknown,Unknown
 07: Thermal and Moisture Protection ,07 92 00 Joint Sealants,Tandus Centiva,C-Xl Universal Sealer,Unknown,Unknown,Unknown
 07: Thermal and Moisture Protection ,07 92 13 Elastomeric Joint Sealants,Knauf Insulation,Ecoseal Plus Water-Based Elastomeric Sealant,Red List Free,Unknown,Unknown
@@ -618,15 +618,15 @@ CSI Division,Subdivision Name,Manufacturer,Product,Red List Status,FSC Content,R
 09: Finishes,09 68 00 Carpeting,Milliken Carpet,Sound And Fury - Intensity,Red List Free,Unknown,Unknown
 09: Finishes,09 68 00 Carpeting,Milliken Carpet,Sound And Fury - Gesture,Red List Free,Unknown,Unknown
 09: Finishes,09 68 00 Carpeting,Milliken Carpet,Monuments And Shrines,Red List Free,Unknown,Unknown
-09: Finishes,09 68 13 Tile Carpeting,Milliken Carpet,Milliken Modular Carpet With Nylon 66 Face And Es Polyurethane Cushion Backing,Compliant,Unknown,Unknown
-09: Finishes,09 68 13 Tile Carpeting,Milliken Carpet,Milliken Modular Carpet With Nylon 6 Face And Polyurethane Cushion Backing,Compliant,Unknown,Unknown
-09: Finishes,09 68 13 Tile Carpeting,Milliken Carpet,Milliken Modular Carpet With Nylon 66 Face And Recycled Cushion Backing,Compliant,Unknown,Unknown
-09: Finishes,09 68 13 Tile Carpeting,Milliken Carpet,Milliken Modular Carpet With Nylon 66 Face And Es Polyurethane Cushion Backing,Compliant,Unknown,Unknown
-09: Finishes,09 68 13 Tile Carpeting,Milliken Carpet,Milliken Modular Carpet With Nylon 6 Face And Es Polyurethane Cushion Backing,Compliant,Unknown,Unknown
-09: Finishes,09 68 13 Tile Carpeting,Milliken Carpet,Milliken Modular Carpet With Nylon 66 Face And Esp Polyurethane Cushion Backing,Compliant,Unknown,Unknown
-09: Finishes,09 68 13 Tile Carpeting,Milliken Carpet,Milliken Modular Carpet With Nylon 6 Face And Esp Polyurethane Cushion Backing,Compliant,Unknown,Unknown
-09: Finishes,09 68 13 Tile Carpeting,Milliken Carpet,Milliken Modular Carpet With Nylon 66 Face And E Polyurethane Cushion Backing,Compliant,Unknown,Unknown
-09: Finishes,09 68 13 Tile Carpeting,Milliken Carpet,Milliken Modular Carpet With Nylon 6 Face And E Polyurethane Cushion Backing,Compliant,Unknown,Unknown
+09: Finishes,09 68 13 Tile Carpeting,Milliken Carpet,Milliken Modular Carpet With Nylon 66 Face And Es Polyurethane Cushion Backing,LBC Compliant,Unknown,Unknown
+09: Finishes,09 68 13 Tile Carpeting,Milliken Carpet,Milliken Modular Carpet With Nylon 6 Face And Polyurethane Cushion Backing,LBC Compliant,Unknown,Unknown
+09: Finishes,09 68 13 Tile Carpeting,Milliken Carpet,Milliken Modular Carpet With Nylon 66 Face And Recycled Cushion Backing,LBC Compliant,Unknown,Unknown
+09: Finishes,09 68 13 Tile Carpeting,Milliken Carpet,Milliken Modular Carpet With Nylon 66 Face And Es Polyurethane Cushion Backing,LBC Compliant,Unknown,Unknown
+09: Finishes,09 68 13 Tile Carpeting,Milliken Carpet,Milliken Modular Carpet With Nylon 6 Face And Es Polyurethane Cushion Backing,LBC Compliant,Unknown,Unknown
+09: Finishes,09 68 13 Tile Carpeting,Milliken Carpet,Milliken Modular Carpet With Nylon 66 Face And Esp Polyurethane Cushion Backing,LBC Compliant,Unknown,Unknown
+09: Finishes,09 68 13 Tile Carpeting,Milliken Carpet,Milliken Modular Carpet With Nylon 6 Face And Esp Polyurethane Cushion Backing,LBC Compliant,Unknown,Unknown
+09: Finishes,09 68 13 Tile Carpeting,Milliken Carpet,Milliken Modular Carpet With Nylon 66 Face And E Polyurethane Cushion Backing,LBC Compliant,Unknown,Unknown
+09: Finishes,09 68 13 Tile Carpeting,Milliken Carpet,Milliken Modular Carpet With Nylon 6 Face And E Polyurethane Cushion Backing,LBC Compliant,Unknown,Unknown
 09: Finishes,09 68 13 Tile Carpeting,"VOXFLOR Industrial Park CO., Ltd.","Loire, Greenpad Series",Red List Free,Unknown,Unknown
 09: Finishes,09 68 13 Tile Carpeting,"InterfaceFLOR, LLC",Tactiles Connector,Unknown,Unknown,Unknown
 09: Finishes,09 68 13 Tile Carpeting,"InterfaceFLOR, LLC",Interfaceflor Post-Consumer Content Nylon 6 (Aquafil),Unknown,Unknown,Unknown
@@ -740,7 +740,7 @@ CSI Division,Subdivision Name,Manufacturer,Product,Red List Status,FSC Content,R
 09: Finishes,09 68 13 Tile Carpeting,Shaw Contract Group,Blur Tile,Red List Free,Unknown,Unknown
 09: Finishes,09 68 13 Tile Carpeting,J&J Industries,City Blocks Modular - Eko,Red List Free,Unknown,Unknown
 09: Finishes,09 68 13 Tile Carpeting,Patcraft,Deflect Skinny Tile,Red List Free,Unknown,Unknown
-09: Finishes,09 68 13 Tile Carpeting,Shaw Contract Group,Bon Jour Ii Tile,Compliant,Unknown,Unknown
+09: Finishes,09 68 13 Tile Carpeting,Shaw Contract Group,Bon Jour Ii Tile,LBC Compliant,Unknown,Unknown
 09: Finishes,09 68 13 Tile Carpeting,Patcraft,Diverge Skinny Tile,Red List Free,Unknown,Unknown
 09: Finishes,09 68 13 Tile Carpeting,J+J Flooring Group,Clowning Around Modular - Eko,Red List Free,Unknown,Unknown
 09: Finishes,09 68 13 Tile Carpeting,Shaw Contract Group,Brilliance Tile,Red List Free,Unknown,Unknown
@@ -748,7 +748,7 @@ CSI Division,Subdivision Name,Manufacturer,Product,Red List Status,FSC Content,R
 09: Finishes,09 68 13 Tile Carpeting,Shaw Contract Group,Byline Tile,Red List Free,Unknown,Unknown
 09: Finishes,09 68 13 Tile Carpeting,Shaw Contract Group,Captivate Tile,Red List Free,Unknown,Unknown
 09: Finishes,09 68 13 Tile Carpeting,J+J Flooring Group,Commercialon Premium Nexus Modular Adhesive,Red List Free,Unknown,Unknown
-09: Finishes,09 68 13 Tile Carpeting,Shaw Contract Group,Casco Tile,Compliant,Unknown,Unknown
+09: Finishes,09 68 13 Tile Carpeting,Shaw Contract Group,Casco Tile,LBC Compliant,Unknown,Unknown
 09: Finishes,09 68 13 Tile Carpeting,Patcraft,Dwell Modular,Red List Free,Unknown,Unknown
 09: Finishes,09 68 13 Tile Carpeting,Shaw Contract Group,Catalyst Tile,Red List Free,Unknown,Unknown
 09: Finishes,09 68 13 Tile Carpeting,Patcraft,Earthen Weave Modular,Red List Free,Unknown,Unknown
@@ -825,7 +825,7 @@ CSI Division,Subdivision Name,Manufacturer,Product,Red List Status,FSC Content,R
 09: Finishes,09 68 13 Tile Carpeting,Shaw Contract Group,Emotion Tile,Red List Free,Unknown,Unknown
 09: Finishes,09 68 13 Tile Carpeting,Patcraft,Mohair Modular,Red List Free,Unknown,Unknown
 09: Finishes,09 68 13 Tile Carpeting,Patcraft,Moving On Up Modular,Red List Free,Unknown,Unknown
-09: Finishes,09 68 13 Tile Carpeting,Shaw Contract Group,Entree Tile,Compliant,Unknown,Unknown
+09: Finishes,09 68 13 Tile Carpeting,Shaw Contract Group,Entree Tile,LBC Compliant,Unknown,Unknown
 09: Finishes,09 68 13 Tile Carpeting,Shaw Contract Group,Entwine Tile,Red List Free,Unknown,Unknown
 09: Finishes,09 68 13 Tile Carpeting,Patcraft,Octave Modular,Red List Free,Unknown,Unknown
 09: Finishes,09 68 13 Tile Carpeting,Shaw Contract Group,Etch Tile,Red List Free,Unknown,Unknown
@@ -871,12 +871,12 @@ CSI Division,Subdivision Name,Manufacturer,Product,Red List Status,FSC Content,R
 09: Finishes,09 68 13 Tile Carpeting,Patcraft,Sign Off Modular,Red List Free,Unknown,Unknown
 09: Finishes,09 68 13 Tile Carpeting,Shaw Contract Group,Gradient Tile,Red List Free,Unknown,Unknown
 09: Finishes,09 68 13 Tile Carpeting,Patcraft,Speak In Color Modular,Red List Free,Unknown,Unknown
-09: Finishes,09 68 13 Tile Carpeting,Shaw Contract Group,Groundworks Iii Tile,Compliant,Unknown,Unknown
+09: Finishes,09 68 13 Tile Carpeting,Shaw Contract Group,Groundworks Iii Tile,LBC Compliant,Unknown,Unknown
 09: Finishes,09 68 13 Tile Carpeting,J+J Flooring Group,Momentum,Red List Free,Unknown,Unknown
 09: Finishes,09 68 13 Tile Carpeting,Patcraft,Technology Modular,Red List Free,Unknown,Unknown
 09: Finishes,09 68 13 Tile Carpeting,Patcraft,Speak In Design Modular,Red List Free,Unknown,Unknown
 09: Finishes,09 68 13 Tile Carpeting,Shaw Contract Group,Imprint Tile,Red List Free,Unknown,Unknown
-09: Finishes,09 68 13 Tile Carpeting,Shaw Contract Group,Haven Tile,Compliant,Unknown,Unknown
+09: Finishes,09 68 13 Tile Carpeting,Shaw Contract Group,Haven Tile,LBC Compliant,Unknown,Unknown
 09: Finishes,09 68 13 Tile Carpeting,J+J Flooring Group,Montage Modular - Eko,Red List Free,Unknown,Unknown
 09: Finishes,09 68 13 Tile Carpeting,Patcraft,Homeroom Ii-26 Modular,Red List Free,Unknown,Unknown
 09: Finishes,09 68 13 Tile Carpeting,Shaw Contract Group,Ingrain Tile,Red List Free,Unknown,Unknown
@@ -903,9 +903,9 @@ CSI Division,Subdivision Name,Manufacturer,Product,Red List Status,FSC Content,R
 09: Finishes,09 68 13 Tile Carpeting,Shaw Contract Group,Link Tile,Red List Free,Unknown,Unknown
 09: Finishes,09 68 13 Tile Carpeting,Shaw Contract Group,Luminosity Tile,Red List Free,Unknown,Unknown
 09: Finishes,09 68 13 Tile Carpeting,J+J Flooring Group,Payday Modular - Eko,Red List Free,Unknown,Unknown
-09: Finishes,09 68 13 Tile Carpeting,Shaw Contract Group,Man Made Stria Tile,Compliant,Unknown,Unknown
+09: Finishes,09 68 13 Tile Carpeting,Shaw Contract Group,Man Made Stria Tile,LBC Compliant,Unknown,Unknown
 09: Finishes,09 68 13 Tile Carpeting,J+J Flooring Group,Pop,Red List Free,Unknown,Unknown
-09: Finishes,09 68 13 Tile Carpeting,Shaw Contract Group,Man Made Tile,Compliant,Unknown,Unknown
+09: Finishes,09 68 13 Tile Carpeting,Shaw Contract Group,Man Made Tile,LBC Compliant,Unknown,Unknown
 09: Finishes,09 68 13 Tile Carpeting,Shaw Contract Group,Matmee Tile,Red List Free,Unknown,Unknown
 09: Finishes,09 68 13 Tile Carpeting,Shaw Contract Group,Melt Tile,Red List Free,Unknown,Unknown
 09: Finishes,09 68 13 Tile Carpeting,Shaw Contract Group,Merge Tile,Red List Free,Unknown,Unknown
@@ -930,7 +930,7 @@ CSI Division,Subdivision Name,Manufacturer,Product,Red List Status,FSC Content,R
 09: Finishes,09 68 13 Tile Carpeting,Shaw Contract Group,Peto Ii 26 Tile,Red List Free,Unknown,Unknown
 09: Finishes,09 68 13 Tile Carpeting,Shaw Contract Group,Plain Weave Tile,Red List Free,Unknown,Unknown
 09: Finishes,09 68 13 Tile Carpeting,Shaw Contract Group,Portal Tile,Red List Free,Unknown,Unknown
-09: Finishes,09 68 13 Tile Carpeting,Shaw Contract Group,Portland Tile,Compliant,Unknown,Unknown
+09: Finishes,09 68 13 Tile Carpeting,Shaw Contract Group,Portland Tile,LBC Compliant,Unknown,Unknown
 09: Finishes,09 68 13 Tile Carpeting,Shaw Contract Group,Prairie Tile,Red List Free,Unknown,Unknown
 09: Finishes,09 68 13 Tile Carpeting,Shaw Contract Group,Prisma Tile,Red List Free,Unknown,Unknown
 09: Finishes,09 68 13 Tile Carpeting,J+J Flooring Group,Sideshow Modular - Eko,Red List Free,Unknown,Unknown
@@ -991,9 +991,9 @@ CSI Division,Subdivision Name,Manufacturer,Product,Red List Status,FSC Content,R
 09: Finishes,09 68 13 Tile Carpeting,Shaw Contract Group,Vibrant Tile,Red List Free,Unknown,Unknown
 09: Finishes,09 68 13 Tile Carpeting,Shaw Contract Group,Visible Tile,Red List Free,Unknown,Unknown
 09: Finishes,09 68 13 Tile Carpeting,Shaw Contract Group,Wander Tile,Red List Free,Unknown,Unknown
-09: Finishes,09 68 13 Tile Carpeting,Shaw Contract Group,Weave Accent Tile,Compliant,Unknown,Unknown
-09: Finishes,09 68 13 Tile Carpeting,Shaw Contract Group,Weave Tile,Compliant,Unknown,Unknown
-09: Finishes,09 68 13 Tile Carpeting,Shaw Contract Group,Welcome Ii Tile,Compliant,Unknown,Unknown
+09: Finishes,09 68 13 Tile Carpeting,Shaw Contract Group,Weave Accent Tile,LBC Compliant,Unknown,Unknown
+09: Finishes,09 68 13 Tile Carpeting,Shaw Contract Group,Weave Tile,LBC Compliant,Unknown,Unknown
+09: Finishes,09 68 13 Tile Carpeting,Shaw Contract Group,Welcome Ii Tile,LBC Compliant,Unknown,Unknown
 09: Finishes,09 68 13 Tile Carpeting,Mohawk Group,Commercial Broadloom Carpet On Weldlok Unitar,Red List Free,Unknown,Unknown
 09: Finishes,09 68 13 Tile Carpeting,Mohawk Group,Commercial Broadloom Carpet On Unibond Blo,Red List Free,Unknown,Unknown
 09: Finishes,09 68 13 Tile Carpeting,Mohawk Group,Commercial Broadloom Carpet On Unibond Plu,Red List Free,Unknown,Unknown
@@ -1016,7 +1016,7 @@ CSI Division,Subdivision Name,Manufacturer,Product,Red List Status,FSC Content,R
 09: Finishes,09 68 13 Tile Carpeting,Mohawk Group,Enthralled Ii Nxt Carpet Tile Upgrade,Red List Free,Unknown,Unknown
 09: Finishes,09 68 13 Tile Carpeting,Mohawk Group,Amused Ii Nxt Carpet Tile Upgrade,Red List Free,Unknown,Unknown
 09: Finishes,09 68 13 Tile Carpeting,Mohawk Group,Vacant Beauty Nxt Gold Carpet Tile Upgrade,Red List Free,Unknown,Unknown
-09: Finishes,09 68 13 Tile Carpeting,Shaw Contract Group,Diffuse Tile,Compliant,Unknown,Unknown
+09: Finishes,09 68 13 Tile Carpeting,Shaw Contract Group,Diffuse Tile,LBC Compliant,Unknown,Unknown
 09: Finishes,09 68 13 Tile Carpeting,Mohawk Group,Starting Over Nxt Gold Carpet Tile Upgrade,Red List Free,Unknown,Unknown
 09: Finishes,09 68 13 Tile Carpeting,Mohawk Group,Into It Carpet Tile,Red List Free,Unknown,Unknown
 09: Finishes,09 68 13 Tile Carpeting,Mohawk Group,Write Direction Carpet Tile 12By36,Red List Free,Unknown,Unknown
@@ -1976,8 +1976,8 @@ CSI Division,Subdivision Name,Manufacturer,Product,Red List Status,FSC Content,R
 09: Finishes,09 72 16 Rigid-Sheet Vinyl Wall Coverings,Construction Specialties - Acrovyn 4000,"Acrovyn Wainscot, Vertical, Inside Corner, And Outside Corner Trims For Acrovyn 4000 Rigid Sheet Wall Covering",Red List Free,Unknown,0%
 09: Finishes,09 72 16 Rigid-Sheet Vinyl Wall Coverings,Construction Specialties - Acrovyn 4000,.060 Rigid Acrovyn 4000 Sheet Wall Covering,Red List Free,Unknown,0%
 09: Finishes,09 72 16 Rigid-Sheet Vinyl Wall Coverings,Construction Specialties - Acrovyn 4000,.040 Rigid Acrovyn 4000 Sheet Wall Covering,Red List Free,Unknown,0%
-09: Finishes,09 81 16 Acoustic Blanket Insulation,Owens Corning,Thermafiber Soundzer,Compliant,Unknown,Unknown
-09: Finishes,09 81 16 Acoustic Blanket Insulation,Owens Corning,Thermafiber Safb,Compliant,Unknown,Unknown
+09: Finishes,09 81 16 Acoustic Blanket Insulation,Owens Corning,Thermafiber Soundzer,LBC Compliant,Unknown,Unknown
+09: Finishes,09 81 16 Acoustic Blanket Insulation,Owens Corning,Thermafiber Safb,LBC Compliant,Unknown,Unknown
 09: Finishes,09 90 00 Painting And Coating,"Imperial Paints, LLC",Air Pure Paints Interior Wall Paint,Red List Free,Unknown,Unknown
 09: Finishes,09 90 00 Painting And Coating,"Imperial Paints, LLC",Ecos Interior Wall Paint,Red List Free,Unknown,Unknown
 09: Finishes,09 90 00 Painting And Coating,Dunn-Edwards Corporation,Vnsl00-1: Vinylastic Select Zero Voc Interior Wall Seale,Unknown,Unknown,Unknown
@@ -2168,8 +2168,8 @@ CSI Division,Subdivision Name,Manufacturer,Product,Red List Status,FSC Content,R
 10:  Specialties ,10 71 13 Exterior Sun Control Devices,Construction Specialties - Acrovyn 4000,C/S Sun Controls - Horizontal Sunshades,Red List Free,Unknown,Unknown
 10:  Specialties ,10 71 13 Exterior Sun Control Devices,Construction Specialties - Acrovyn 4000,C/S Sun Controls - Perform Sunshades,Red List Free,Unknown,Unknown
 10:  Specialties ,10 71 13 Exterior Sun Control Devices,Construction Specialties - Acrovyn 4000,C/S Sun Controls - Shadowline,Red List Free,Unknown,Unknown
-12:   Furnishings,12 00 00 Furnishings,Teknion,District,Compliant,100%,Unknown
-12:   Furnishings,12 00 00 Furnishings,Teknion,Interpret,Compliant,100%,Unknown
+12:   Furnishings,12 00 00 Furnishings,Teknion,District,LBC Compliant,100%,Unknown
+12:   Furnishings,12 00 00 Furnishings,Teknion,Interpret,LBC Compliant,100%,Unknown
 12:   Furnishings,12 00 00 Furnishings,Teknion,Projek Task,Red List Free,Unknown,Unknown
 12:   Furnishings,12 00 00 Furnishings,Teknion,Visio,Red List Free,Unknown,Unknown
 12:   Furnishings,12 00 00 Furnishings,Teknion,Variable,Red List Free,Unknown,Unknown
@@ -2395,8 +2395,8 @@ CSI Division,Subdivision Name,Manufacturer,Product,Red List Status,FSC Content,R
 23:  HVAC,23 07 19 Hvac Piping Insulation,Knauf Insulation,Knauf Earthwool Redi-Klad 1000 Degree Pipe Insulation With Ecose Technology,Red List Free,Unknown,Unknown
 23:  HVAC,23 07 19 Hvac Piping Insulation,Knauf Insulation,Knauf Earthwool 1000 Degree Pipe Insulation With Ecose Technology,Red List Free,Unknown,Unknown
 23:  HVAC,23 20 00 Hvac Piping And Pumps,Aquatherm,Aquatherm Blue Pipe,Red List Free,Unknown,Unknown
-23:  HVAC,23 31 16 Nonmetal Ducts,Owens Corning,Ecotouch Insulation For Flexible Duct,Compliant,Unknown,Unknown
-23:  HVAC,23 72 23 Packaged Air-To-Air Energy-Recovery Units,"UltimateAir, Inc.",Recoupaerator 200Dx,Compliant,Unknown,Unknown
+23:  HVAC,23 31 16 Nonmetal Ducts,Owens Corning,Ecotouch Insulation For Flexible Duct,LBC Compliant,Unknown,Unknown
+23:  HVAC,23 72 23 Packaged Air-To-Air Energy-Recovery Units,"UltimateAir, Inc.",Recoupaerator 200Dx,LBC Compliant,Unknown,Unknown
 46:  Water and Wastewater ,46 07 53 Packaged Wastewater Treatment Systems,Aquacell Water Recycling Systems,Aquacell S,LBC Compliant,Unknown,Unknown
 46:  Water and Wastewater ,46 07 53 Packaged Wastewater Treatment Systems,Aquacell Water Recycling Systems,Aquacell G,LBC Compliant,Unknown,Unknown
 48:  Power Generation,48 14 13 Solar Energy Collectors,SUNPOWER,Sunpower E20 Solar Panel,Red List Free,Unknown,Unknown

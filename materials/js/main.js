@@ -1,4 +1,11 @@
 
+var tip = d3.tip()
+  .attr("class", "d3-tip")
+  .offset([-10, 0])
+  .html(function(d) {
+    return d.name;
+});
+
 var w = 1140,
     h = 820,
     x = d3.scale.linear().range([0, w]),
@@ -9,7 +16,8 @@ var expandval = 3.5
 var vis = d3.select("#chart").append("svg")
     .attr("width", w)
     .attr("height", h * expandval + 60)
-    .append("g").attr("id", "clipping_g");
+    .append("g").attr("id", "clipping_g")
+    .call(tip);
 
 
 vis.append("defs")
@@ -64,10 +72,14 @@ var color = function(d) {
   }
   else if (!d.children) {
     if (d["Red List Status"].toLowerCase() == "red list free") {
-      return "#6CB33F";
+      
+      return "#6CB33F"; // darker green
     }
     else if (d["Red List Status"].toLowerCase() == "lbc compliant") {
-      return "#B4D88B";
+      return "#B4D88B"; //lighter green
+    }
+    else if (d["Red List Status"].toLowerCase() == "declared" || d["Red List Status"].toLowerCase() == "unknown")  {
+      return "#BE6768";
     }
     else {
       return "#BEC0C2";
@@ -112,15 +124,6 @@ function changeState(id) {
   $("#" + id).addClass("active");
 
 }
-
-
-var tip = d3.tip()
-  .attr("class", "d3-tip")
-  .offset([-10, 0])
-  .html(function(d) {
-    console.log("hello");
-    return "hello"
-});
 
 
 var expand = false;
@@ -230,7 +233,8 @@ d3.csv("MaterialDatabase_CSV.csv", function(root) {
       .attr("height", function(d) { return d.dx * ky; })
       .style("fill", function (d) { return color(d); })
       .attr("class", function(d) { return d.children ? "parent" : "child"; })
-      .call(tip);
+      .on("mouseover", tip.show)
+      .on("mouseout", tip.hide);
 
   g.append("svg:text")
       .attr("transform", transform)

@@ -26,9 +26,16 @@
         fill-opacity: .8;
       }
 
+      rect:hover {
+        fill-opacity: .35;
+      }
+
+      rect.parent:hover {
+        fill-opacity: .8;
+      }
+
       rect.parent {
         cursor: pointer;
-        fill: steelblue;
       }
 
       text {
@@ -68,6 +75,10 @@
         left: 0;
       }
 
+      .img {
+        height: 100%;
+      }
+
 
     </style>
   </head>
@@ -77,9 +88,12 @@
         <div class="container">
           <div class="navbar-header">
             <a href="#" class="navbar-brand">Atelier Ten Materials Database</a>
+            <div class="navbar-brand">
+              <img src="img/A10-logo-bluegreen.jpg" class="img" alt = "">
+            </div>
           </div>
           <div id="navbar" class="collapse navbar-collapse">
-            <ul class="nav navbar-nav">
+            <ul class="nav navbar-nav navbar-right" style="padding-right: 30px;">
               <li class="active" id="btn_division">
                 <a href="#">Division</a>
               </li> 
@@ -92,10 +106,8 @@
               <li id="btn_product">
                 <a href="#" id="btn_product">Product</a>
               </li>          
-            </ul>
-            <ul class="nav navbar-nav navbar-right" style="padding-right: 30px;">
               <li id="btn_expand">
-                <a href="#">Expand</a>
+                <a href="#" style="color: black;">Expand</a>
               </li>  
             </ul>
           </div>
