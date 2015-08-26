@@ -11,6 +11,7 @@ var vis = d3.select("#chart").append("svg")
     .attr("height", h * expandval + 60)
     .append("g").attr("id", "clipping_g");
 
+
 vis.append("defs")
   .append("clipPath").attr("id", "clipping")
   .append("rect").attr("id", "clipRect")
@@ -62,7 +63,15 @@ var color = function(d) {
     return parentColor(d.parent.parent.name)
   }
   else if (!d.children) {
-    return d["Red List Status"].toLowerCase() == "unknown" ? "#EE312D" :"#BEC0C2";
+    if (d["Red List Status"].toLowerCase() == "red list free") {
+      return "#6CB33F";
+    }
+    else if (d["Red List Status"].toLowerCase() == "lbc compliant") {
+      return "#B4D88B";
+    }
+    else {
+      return "#BEC0C2";
+    }
   }
   else {
     return "#DDDDDD";
@@ -104,14 +113,15 @@ function changeState(id) {
 
 }
 
-/**
+
 var tip = d3.tip()
   .attr("class", "d3-tip")
   .offset([-10, 0])
   .html(function(d) {
+    console.log("hello");
     return "hello"
-  });
-**/
+});
+
 
 var expand = false;
 
@@ -219,8 +229,8 @@ d3.csv("MaterialDatabase_CSV.csv", function(root) {
       .attr("width", nested.dy * kx)
       .attr("height", function(d) { return d.dx * ky; })
       .style("fill", function (d) { return color(d); })
-      .attr("class", function(d) { return d.children ? "parent" : "child"; });
-      //.call(tip);
+      .attr("class", function(d) { return d.children ? "parent" : "child"; })
+      .call(tip);
 
   g.append("svg:text")
       .attr("transform", transform)
