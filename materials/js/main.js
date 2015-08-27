@@ -122,6 +122,15 @@ var change_vals = function(d) {
   }
 }
 
+function childSearch(d, gd) {
+  if (d.children) {
+    return (d.children.length == gd.heirs);
+  }
+  else {
+    return (gd.heirs == 0);
+  }
+}
+
 function treeSearch(d, gd) {
   if ((d.name == gd.name) && (d.depth == gd.depth) && (d.children.length == gd.heirs)){
     return d;
@@ -147,8 +156,6 @@ function openLink(d) {
   var url = "http://www.google.com/search?btnI=I%27m+Feeling+Lucky&ie=UTF-8&oe=UTF-8&q=" + search //+ "+%s"
   window.open(url, "_blank");
 }
-
-
 
 
 var expand = false;
@@ -233,7 +240,7 @@ d3.csv("MaterialDatabase_CSV.csv", function(root) {
       d3.select("#clipRect").transition().duration(800).attr("height", (h * expandval));
       expand = true
     }
-    click(treeSearch(nested, gd));
+      click(treeSearch(nested, gd));
   }
 
   d3.select("#btn_product").select("a").on("click", btnSort.btnProduct);
@@ -278,16 +285,18 @@ d3.csv("MaterialDatabase_CSV.csv", function(root) {
 
   function click(d) {
    
+
     var ex = expand ? expandval: 1;
-    gd.name = d.name; 
-    gd.depth = d.depth;
     
+        
     if (!d.children) {
       openLink(d)
-      gd.heirs = 0
       return;
     }
-    gd.heirs = d.children.length 
+
+    gd.name = d.name; 
+    gd.depth = d.depth;
+    gd.heirs = d.children.length;
 
 
     kx = (d.y ? w - 40 : w) / (1 - d.y);
