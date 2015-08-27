@@ -1,23 +1,44 @@
-
-var tip = d3.tip()
-  .attr("class", "d3-tip")
-  .offset([-10, 0])
-  .html(function(d) {
-    return d.name;
-});
-
 var w = 1140,
     h = 820,
     x = d3.scale.linear().range([0, w]),
     y = d3.scale.linear().range([0, h]);
+
+var tooltip = {
+  mouseover: function(d) {
+    var html = "<div><h6><strong>Product: </strong>"+ d.name + "</h6></div>" +
+        "<div><h6><strong>Red List Status: </strong>"+ d["Red List Status"] + "</h6></div>" +
+        "<div><h6><strong>FSC Content: </strong>"+ d["FSC Content"] + "</h6></div>" +
+        "<div><h6><strong>Recycled Content: </strong>"+ d["Recycled Content"] + "</h6></div>" 
+      this.el.html(html).transition()
+    .duration(100)
+    .style("opacity", 1);  
+  },
+  mousemove: function() {
+    var pageX = event.clientX,
+    pageY = event.clientY
+
+    console.log(pageY);
+    if (pageX < (w / 2) + 100) {
+      return this.el.style("top", (pageY+10) + "px").style("left", (pageX+15) + "px");
+    } 
+    else {
+      return this.el.style("top", (pageY+10) + "px").style("left", (pageX-220) + "px");
+    }
+  },
+  mouseout: function(d) {
+    this.el.transition()
+    .duration(200)
+    .style("opacity", 0);
+  }
+};
+
 
 var expandval = 3.5
 
 var vis = d3.select("#chart").append("svg")
     .attr("width", w)
     .attr("height", h * expandval + 60)
-    .append("g").attr("id", "clipping_g")
-    .call(tip);
+    .append("g").attr("id", "clipping_g");
 
 
 vis.append("defs")
@@ -118,12 +139,18 @@ function treeSearch(d, gd) {
 
 function changeState(id) {
   var ids = ["btn_product", "btn_manufacturer", "btn_subdivision", "btn_division"]
-
   ids.forEach(function(d) { $("#" + d).removeClass("active"); });
-  
   $("#" + id).addClass("active");
-
 }
+
+function openLink(d) {
+  var search = d.parent.name + " " + d.name
+  console.log(search);
+  var url = "http://www.google.com/search?btnI=I%27m+Feeling+Lucky&ie=UTF-8&oe=UTF-8&q=" + search //+ "+%s"
+  window.open(url, "_blank");
+}
+
+
 
 
 var expand = false;
@@ -131,6 +158,9 @@ var expand = false;
 d3.csv("MaterialDatabase_CSV.csv", function(root) {
 
 
+  tooltip.el = d3.select("body").append("div")
+          .attr("class", "tooltip")
+          .style("opacity", 0);
 
   var filtered = root.map(function(d) {
     var ks = d3.keys(d).filter(function(x) { return x != ""; });
@@ -222,8 +252,8 @@ d3.csv("MaterialDatabase_CSV.csv", function(root) {
   var g = vis.selectAll("g")
       .data(partition.nodes(nested))
     .enter().append("svg:g")
-      .attr("transform", function(d) { return "translate(" + x(d.y) + "," + y(d.x) + ")"; })
-      .on("click", click);
+      .attr("transform", function(d) { return "translate(" + x(d.y) + "," + y(d.x) + ")"; });
+      
 
   var kx = w / nested.dx,
       ky = h / 1;
@@ -233,8 +263,11 @@ d3.csv("MaterialDatabase_CSV.csv", function(root) {
       .attr("height", function(d) { return d.dx * ky; })
       .style("fill", function (d) { return color(d); })
       .attr("class", function(d) { return d.children ? "parent" : "child"; })
-      .on("mouseover", tip.show)
-      .on("mouseout", tip.hide);
+      .on("click", click)
+      .on("mouseover", function(d) { return d.children ? null : tooltip.mouseover(d); })
+      .on("mousemove", function(d) { return d.children ? null : tooltip.mousemove(); })
+      .on("mouseout", function(d) { return d.children ? null : tooltip.mouseout(d); })
+
 
   g.append("svg:text")
       .attr("transform", transform)
@@ -243,8 +276,8 @@ d3.csv("MaterialDatabase_CSV.csv", function(root) {
       .style("opacity", function(d) { return d.dx * ky > 12 ? 1 : 0; })
       .text(function(d) { return d.name; })
 
-  d3.select("svg")
-      .on("click", function() { click(nested); })
+  //d3.select("svg")
+      //.on("click", function() { click(nested); })
 
 
   function click(d) {
@@ -254,6 +287,7 @@ d3.csv("MaterialDatabase_CSV.csv", function(root) {
     gd.depth = d.depth;
     
     if (!d.children) {
+      openLink(d)
       gd.heirs = 0
       return;
     }
