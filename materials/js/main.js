@@ -17,7 +17,6 @@ var tooltip = {
     var pageX = event.clientX,
     pageY = event.clientY
 
-    console.log(pageY);
     if (pageX < (w / 2) + 100) {
       return this.el.style("top", (pageY+10) + "px").style("left", (pageX+15) + "px");
     } 
@@ -145,7 +144,6 @@ function changeState(id) {
 
 function openLink(d) {
   var search = d.parent.name + " " + d.name
-  console.log(search);
   var url = "http://www.google.com/search?btnI=I%27m+Feeling+Lucky&ie=UTF-8&oe=UTF-8&q=" + search //+ "+%s"
   window.open(url, "_blank");
 }
@@ -228,13 +226,11 @@ d3.csv("MaterialDatabase_CSV.csv", function(root) {
     if (expand == true) {
       $("#btn_expand").removeClass("active");
       d3.select("#clipRect").transition().duration(800).attr("height", h);
-      console.log("expand");
       expand = false;
     }
     else {
       $("#btn_expand").addClass("active");
       d3.select("#clipRect").transition().duration(800).attr("height", (h * expandval));
-      console.log("expand");
       expand = true
     }
     click(treeSearch(nested, gd));
