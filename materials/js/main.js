@@ -160,7 +160,7 @@ function openLink(d) {
 
 var expand = false;
 
-d3.csv("MaterialDatabase_CSV.csv", function(root) {
+d3.csv("data/materialsData.csv", function(root) {
 
 
   tooltip.el = d3.select("body").append("div")
