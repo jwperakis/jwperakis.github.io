@@ -8,7 +8,8 @@ var tooltip = {
     var html = "<div><h6><strong>Product: </strong>"+ d.name + "</h6></div>" +
         "<div><h6><strong>Red List Status: </strong>"+ d["Red List Status"] + "</h6></div>" +
         "<div><h6><strong>FSC Content: </strong>"+ d["FSC Content"] + "</h6></div>" +
-        "<div><h6><strong>Recycled Content: </strong>"+ d["Recycled Content"] + "</h6></div>" 
+        "<div><h6><strong>Recycled Content: </strong>"+ d["Recycled Content"] + "</h6></div>" +
+        "<div><h6><strong>Reference: </strong>"+ d["Reference Project"] + "</h6></div>"  
       this.el.html(html).transition()
     .duration(100)
     .style("opacity", 1);  
@@ -115,7 +116,8 @@ var change_vals = function(d) {
     return {name: d["Product"], 
     "Recycled Content": d["Recycled Content"], 
     "FSC Content": d["FSC Content"], 
-    "Red List Status": d["Red List Status"]}
+    "Red List Status": d["Red List Status"],
+    "Reference Project": d["Reference Project"]}
   }
   else {
     return {name: d.key, children: d.values.map(function(dd) { return change_vals(dd); })}
