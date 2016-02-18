@@ -9669,36 +9669,36 @@ function annual_illuminance() {
       			.call(brush);
 
       		var header = svg.append("g").attr("class", "header")
-      			.attr("transform", "translate(80, 118)");
+      			.attr("transform", "translate(250, 118)");
 
       		header.append("text")
-      			.attr({x:0, y:-65})
+      			.attr({x:-170, y:-65})
       			.attr({"text-anchor": "start", "font-size": 16})
       			.text("Point " + (i + 1));
 
 
       		header.append("text")
-      			.attr({x:390, y:0})
+      			.attr({x:390, y:-1})
       			.attr({"text-anchor": "end", "font-size": 10})
-      			.text(color.domain()[0] + " lux");
+      			.text("No Direct Sunlight");
 
       		header.append("text")
-      			.attr({x:660, y:0})
+      			.attr({x:475, y:-1})
       			.attr({"text-anchor": "start", "font-size": 10})
-      			.text(color.domain()[1] + " lux");
+      			.text("Direct Sunlight");
 
       		header.append("text")
       			.attr({x:400, y:-18})
       			.attr({"text-anchor": "start", "font-size": 10})
-      			.text("Hourly Illuminance");
+      			.text("Hours of Direct Sunlight");
       		
 
-      		header.selectAll("rect").data(color.range()).enter()
+      		header.selectAll("rect").data([0, 100000]).enter()
       			.append("rect")
       			.attr({width: 30, height: 10})
       			.attr("x", function(x, xx) { return xx * 32 + 400; })
       			.attr("y", -10)
-      			.attr("fill", function(x) { return x; });
+      			.attr("fill", function(x) { return color(x); });
 
       		
       		
